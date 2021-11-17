@@ -1,0 +1,28 @@
+{
+  "name":"railan-bernardo/enquete",
+  "description": "Sistema de Votação em MVC",
+  "author": [
+    {
+      "name":"Railan Bernardo",
+      "email":"railabernardo2016@gmail.com"
+    }
+  ],
+  "config": {
+  "vendor-dir": "vendor"
+},
+  "autoload":{
+    "psr-4":{
+      "Source\\":"source/"
+    },
+    "files":[
+      "source/Boot/Config.php",
+      "source/Boot/Helper.php"
+    ]
+  },
+  "require":{
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "league/plates": "v4.0.0-alpha"
+  }
+
+}
